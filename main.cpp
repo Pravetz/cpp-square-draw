@@ -24,6 +24,13 @@ void draw()
 		cout<<""<<endl;
 	
 }
+void geometry()
+{
+	if(w==h)
+		cout<<"Square ("<<w*h<<")"<<endl;
+	if(w>h||w<h)
+		cout<<"Rectangle ("<<w<<"*"<<h<<"="<<w*h<<")"<<endl;
+}
 
 int main()
 {
@@ -32,4 +39,5 @@ int main()
 	cout<<"Enter height: ";
 	cin>>h;
 	draw();
+	geometry();
 }
