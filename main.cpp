@@ -52,7 +52,7 @@ int choice()
 	cout<<"1. Square"<<endl;
 	cout<<"2. Line"<<endl;
 	cin>>c;
-	if(c!=1&&c!=2) /*automaticly sets c(choice) to 2 if c is not equal to 1 or 2*/
+	if(c!=1&&c!=2) /*automatically sets c(choice) to 2 if c is not equal to 1 or 2*/
 		c=2;
 	if(c==1)
 		return 0;
