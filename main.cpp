@@ -32,7 +32,7 @@ void drawtriangle()
 			cout<<""<<endl;
 			}
 		
-		}		
+		}
 }
 	
 
@@ -113,7 +113,7 @@ int main()
 		drawtriangle();
 		}
 	if(c==5){
-		return 0;
+		exit(0);
 		}
 	
 }
