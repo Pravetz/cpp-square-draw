@@ -96,6 +96,7 @@ int choice()
 
 int main()
 {
+	while(c!=1&&c!=2&&c!=3){
 	choice();
 	if(c==1){
 	cout<<"Enter width: ";
@@ -115,5 +116,7 @@ int main()
 	if(c==5){
 		exit(0);
 		}
-	
+	if(c>5)
+		cout<<"invalid choice"<<endl;
+	}
 }
